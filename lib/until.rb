@@ -1,11 +1,9 @@
 def using_until
   levitation_force = 6
-until levitation_force == 0 
-puts 
-end
 
 counter = 0
-until counter == 20
-  puts "The current number is less than 20."
-  counter += 1
+until levitation_force == 0 
+  puts "Wingardium Leviosa"
+  counter +=1
 end
+
